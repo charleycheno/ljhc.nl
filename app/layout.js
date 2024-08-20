@@ -1,17 +1,24 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Providers } from "./providers";
+import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "LJHC.nl",
-  description: "Li Jing Hao Charley's website!",
+  description: "LJHC.nl is my personal portfolio website that showcases my skills and projects as a web developer.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="nl">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="transition-colors duration-300">
+      <body className={inter.className}>
+        <Providers>
+          <Header />
+          {children}
+        </Providers>
+      </body>
     </html>
   );
 }
