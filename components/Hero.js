@@ -41,7 +41,7 @@ export default function Hero() {
           }}
           className="w-48 h-48 relative rounded-full overflow-clip z-50 cursor-grab active:cursor-grabbing"
         >
-          <img src="/charley.jpg" className="w-full h-full pointer-events-none" />
+          <img src="/assets/charley.jpg" className="w-full h-full pointer-events-none" />
         </motion.div>
         <div className="flex flex-col gap-2 w-full">
           <p className="italic text-center max-w-64">"Hello, I am Charley!"</p>
