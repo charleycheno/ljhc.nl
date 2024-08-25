@@ -1,9 +1,7 @@
-import Contact from "@/components/Contact";
-
 export default function Page() {
   return (
     <div>
-      <Contact />
+      <p>Pay</p>
     </div>
   )
 }
