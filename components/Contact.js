@@ -6,8 +6,8 @@ export default function Contact() {
   return (
     <div className="flex flex-col items-center p-4 pt-16 sm:p-16 bg-neutral-100 dark:bg-neutral-900">
       <h1 className="font-bold text-3xl mb-10">Contact</h1>
-      <div className="flex flex-col gap-4">
-        <div className="flex gap-4 justify-between">
+      <div className="flex flex-col gap-2 sm:gap-4">
+        <div className="flex gap-2 sm:gap-4 justify-between">
           <div className="bg-white dark:bg-black rounded-xl p-4">
             <h2 className="font-semibold mb-2">Business inquiries</h2>
             <Code>business@ljhc.nl</Code>
