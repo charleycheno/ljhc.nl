@@ -3,6 +3,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="transition-colors duration-300">
       <body className={inter.className}>
+        <Analytics />
         <Providers>
           <Header />
           {children}

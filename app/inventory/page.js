@@ -1,7 +1,9 @@
+import Inventory from "@/components/Inventory";
+
 export default function Page() {
   return (
     <div>
-      <p>Inventory</p>
+      <Inventory />
     </div>
   )
 }
