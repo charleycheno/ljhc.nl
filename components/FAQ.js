@@ -16,7 +16,7 @@ export default function FAQ() {
         <p>To start a project, I need content for your site like text, images, logo, color scheme, and an idea of the style or examples of sites you like. If you do not have these yet, I can assist with content creation and design guidance.</p>
       </AccordionItem>
       <AccordionItem key="4" title="How did you make LJHC.nl?" className="leading-7 max-w-[300px]">
-        <p>I made this website using the Next.js framework. This allows for an integrated routing solution, SSR and Tailwind CSS all in one framework while using React at its core. I also some components from the NextUI library. It took me 2 weeks to finish this project.</p>
+        <p>I made this website using the Next.js framework. This allows for an integrated routing solution, SSR and Tailwind CSS all in one framework while using React at its core. I also used some components from the NextUI library. It took me 2 weeks to finish this project.</p>
       </AccordionItem>
       <AccordionItem key="5" title="Do you accept donations?" className="leading-7 max-w-[300px]">
         <p>Yes, donations are greatly appreciated. Visit <Link href="/pay" className="text-blue-700 hover:underline">this page</Link> to donate.</p>
