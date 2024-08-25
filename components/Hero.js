@@ -31,18 +31,9 @@ export default function Hero() {
         </motion.div>
       </div>
       <div className="flex flex-col items-center gap-6">
-        <motion.div
-          drag
-          dragConstraints={{
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-          }}
-          className="w-48 h-48 relative rounded-full overflow-clip z-50 cursor-grab active:cursor-grabbing"
-        >
-          <img src="/assets/charley.jpg" className="w-full h-full pointer-events-none" />
-        </motion.div>
+        <div className="w-48 h-48 relative rounded-full overflow-clip z-50">
+          <img src="/assets/charley.jpg" className="w-full h-full" />
+        </div>
         <div className="flex flex-col gap-2 w-full">
           <p className="italic text-center max-w-64">"Hello, I am Charley!"</p>
           <p className="text-right">- Charley, 2016</p>
