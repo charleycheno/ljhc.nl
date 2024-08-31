@@ -8,7 +8,7 @@ export default function Project({ image, year, url, title, source, technologies,
       <a target="_blank" href={url} rel="noopener noreferrer" className="font-bold text-3xl rounded-xl hover:underline">
         <Image src={image} width={480} height={270} className="self-center aspect-video rounded-xl" />
       </a>
-      <div className="flex flex-col gap-4 max-w-[512px]">
+      <div className="flex flex-col gap-4 w-full sm:w-[480px]">
         <h3 className="font-semibold text-xl text-neutral-500">{year}</h3>
         <div className="flex justify-between items-center">
           <a target="_blank" href={url} rel="noopener noreferrer" className="font-bold text-3xl hover:underline">{title}</a>
