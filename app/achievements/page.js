@@ -1,7 +1,9 @@
+import Achievements from "@/components/Achievements";
+
 export default function Page() {
   return (
     <div>
-      <p>Achievements</p>
+      <Achievements />
     </div>
   )
 }
