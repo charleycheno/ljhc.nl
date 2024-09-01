@@ -10,7 +10,7 @@ export default function FAQ() {
         <p>I offer anything front-end related: from designing basic wireframes to developing custom web applications. If you need something else, just let me know.</p>
       </AccordionItem>
       <AccordionItem key="2" title="What is your pricing?" className="leading-7 max-w-[300px]">
-        <p>As of now, it is completely free of charge, because I need to build a portfolio. Once I have build a solid portfolio, I plan on increasing my pricing to €1.500 for medium-sized projects. Of course, this will not be a fixed price: the price can be higher or lower, depending on the complexity of the website.</p>
+        <p>As of now, it is completely free of charge, because I need to build a portfolio. Once I have built a solid portfolio, I plan on increasing my pricing to €1.500 for medium-sized projects. Of course, this will not be a fixed price: the price can be higher or lower, depending on the complexity of the website.</p>
       </AccordionItem>
       <AccordionItem key="3" title="What do I need to get started?" className="leading-7 max-w-[300px]">
         <p>To start a project, I need content for your site like text, images, logo, color scheme, and an idea of the style or examples of sites you like. If you do not have these yet, I can assist with content creation and design guidance.</p>
